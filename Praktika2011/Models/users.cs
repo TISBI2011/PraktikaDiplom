@@ -27,6 +27,7 @@ namespace Praktika2011.Models
         public Nullable<int> idRole { get; set; }
         public string secretWord { get; set; }
         public string mail { get; set; }
+
     
         public virtual role role { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
